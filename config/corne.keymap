@@ -81,10 +81,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(SINGLE_QUOTE)          &kp RA(O)  &kp RA(A)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans               &kp SQT  &kp DOUBLE_QUOTES  &kp GRAVE  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans             &kp MINUS     &kp UNDERSCORE  &kp TILDE  &trans  &trans
+                        &trans  &trans  &trans    &trans                &trans             &trans
             >;
         };
 
