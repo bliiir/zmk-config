@@ -79,7 +79,7 @@
             >;
         };
 
-        layer_4 {
+        quotes_dashes {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RA(SINGLE_QUOTE)          &kp RA(O)  &kp RA(A)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans               &kp SQT  &kp DOUBLE_QUOTES  &kp GRAVE  &trans  &trans
@@ -88,12 +88,12 @@
             >;
         };
 
-        layer_5 {
+        navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp LA(LG(LEFT_ARROW))     &kp PG_UP  &kp PG_DN  &kp LA(LG(RIGHT))  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+ &none          &kp LEFT_ARROW  &kp UP_ARROW   &kp DOWN          &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp LG(LEFT)      &kp HOME    &kp END      &kp LG(RIGHT)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                                 &trans             &trans  &trans    &trans  &trans  &trans
             >;
         };
 
