@@ -25,9 +25,10 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        back_to_base {
             bindings = <&lt 1 0>;
             key-positions = <36 41>;
+            layers = <0>;
         };
     };
 
